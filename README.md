@@ -30,18 +30,22 @@ Merancang dan mengimplementasikan database relasional untuk sistem **Point of Sa
 ```text
 multistore-POS-database/
 │
-├── Business Analysis/
-│   └── business_analysis.sql
+├── database/
+│   └── schema
+│       └── schema.sql
 │
-├── Design/
-│   ├── conceptual_data_model.png
-│   ├── data_dictionary.xlsx
-│   ├── logical_data_model.png
-│   └── physical_data_model.png
+├── docs/
+│   └── database-design
+│       ├── conceptual_data_model.png
+│       ├── data_dictionary.xlsx
+│       ├── logical_data_model.png
+│       └── physical_data_model.png
 │
-├── SQL/
-│   ├── create-database.sql
-│   └── input-data.sql
+├── seed/
+│   ├── seed.sql
+│
+├── queries/
+│   └── query-analysis.sql
 │
 └── README.md
 ```
